@@ -1,0 +1,77 @@
+.box {
+	width:300px;
+	min-height:300px;
+	padding:20px;
+	border:1px solid #ccc;
+	display:none;
+	
+}
+
+#table td {
+	border:1px solid #ccc;
+	padding:5px;
+	text-align:center;
+	
+}
+
+.active {
+	background:orange;
+	color:#fff;
+	
+}
+
+.direct {
+	background:green;
+}
+
+.indirect {
+	background:blue;
+}
+
+.error{
+	outline : 2px solid red;
+}
+
+#tabs {
+	position:relative;
+}
+
+#tabs dt {
+	display:inline-block;
+	border:1px solid #ccc;
+}
+
+
+#tabs dd {
+	position:absolute;
+	border:1px solid #ccc;
+
+	width:600px;
+	min-height:300px;
+	left:0px;
+	padding:10px;
+	margin:0px;
+	display:none;
+}
+
+
+#tabs dt.active {
+	background:#ccc;
+	color:red;
+}
+
+#tabs dd.active {
+	display:block;
+}
+
+
+.but {
+	border:1px solid #ccc;
+	padding:5px;
+	
+}
+
+
+
+
+

@@ -1,0 +1,37 @@
+.box {
+	width:300px;
+	min-height:300px;
+	padding:20px;
+	border:1px solid #ccc;
+	display:none;
+	
+}
+
+#big {
+	width:100px;
+	min-height:100px;
+	padding:10px;
+	border:1px solid #ccc;
+	position:absolute;
+}
+
+#big img {
+	width:100%;
+	
+}
+
+ul {
+	list-style:none;
+	padding:0px;
+	margin:0px;
+	
+}
+
+ul li {
+	display:inline-block;
+	
+}
+
+.activeImg {
+	border : 1px solid red;
+}

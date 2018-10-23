@@ -1,0 +1,55 @@
+.box {
+	width:300px;
+	min-height:300px;
+	padding:20px;
+	border:1px solid #ccc;
+	display:none;
+	
+}
+
+#big {
+	width:20px;
+	height:20px;
+	padding:5px;
+	border:1px solid #ccc;
+	position:fixed;
+	right:20px;
+	bottom:20px;
+	background:red;
+	display:none;
+}
+
+#big img {
+	width:100%;
+	
+}
+
+ul {
+	list-style:none;
+	padding:0px;
+	margin:0px;
+	
+}
+
+ul li {
+	display:inline-block;
+	
+}
+
+.activeImg {
+	border : 1px solid red;
+}
+
+.menu {
+	display: none;
+	width: 100px;
+	height: 100px;
+	border: 3px solid green;
+	background: white;
+	
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	 
+}
+

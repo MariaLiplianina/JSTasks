@@ -1,0 +1,63 @@
+.box {
+	width:300px;
+	min-height:300px;
+	padding:20px;
+	border:1px solid #ccc;
+	display:none;
+
+}
+
+#table td {
+	border:1px solid #ccc;
+	padding:5px;
+	text-align:center;
+
+}
+
+.active {
+	background:orange;
+	color:#fff;
+
+}
+
+.direct {
+	background:green;
+}
+
+.indirect {
+	background:blue;
+}
+
+.error{
+	outline : 2px solid red;
+}
+
+.collapseBox {
+	display: none;
+}
+
+.collapseBox.show {
+	display: block;
+}
+
+.myClass {
+	background: #ccc;
+	box-shadow: 2px 2px 5px #ccc;
+
+}
+
+.gallery li {
+	display: inline-block;
+
+}
+
+
+.gallery2{
+	width: 100%;
+}
+	
+.gallery3 li a img {
+	width: 100%;
+
+}
+
